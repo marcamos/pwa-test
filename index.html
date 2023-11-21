@@ -1,14 +1,37 @@
+<!doctype html>
 <html lang="en">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css" />
         <link rel="manifest" href="/manifest.json">
+        <link rel="icon" href="/icons/circle.svg">
         <title>Marc’s PWA</title>
     </head>
 
     <body>
+        <h1>Period tracker</h1>
+        <form>
+            <fieldset>
+                <legend>Enter your period start and end date</legend>
+                <p>
+                    <label for="start-date">Start date</label>
+                    <input type="date" id="start-date" required />
+                </p>
+                <p>
+                    <label for="end-date">End date</label>
+                    <input type="date" id="end-date" required />
+                </p>
+            </fieldset>
+            <p>
+                <button type="submit">Add Period</button>
+            </p>
+        </form>
+        <section id="past-periods">
 
+        </section>
+        <script src="/app.js" defer></script>
     </body>
 
 </html>

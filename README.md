@@ -13,3 +13,4 @@
 * [Storage quotas and eviction criteria](https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria)
 * [App icon badges](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Display_badge_on_app_icon)
 * [PWA image generator](https://www.pwabuilder.com/imageGenerator)
+* [Debugging / dev-time management](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers#debugging_service_workers)

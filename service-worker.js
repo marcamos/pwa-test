@@ -60,7 +60,7 @@ self.addEventListener('fetch', (event) => {
                 return cachedResponse;
             }
             // If resource is not found in cache, respond with a 404 status
-            return new Response(null, { status: 404 });
+            return new Response('Not found', { status: 404 });
         })()
     )
 });
